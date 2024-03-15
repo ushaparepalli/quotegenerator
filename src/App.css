@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background:url(https://www.hardwarefield.com/wp-content/uploads/2020/08/design-an-attractive-background-for-your-website.jpg); /* Light background color */
+  color: #70e11a; /* Text color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  color: #ffa200; /* Primary color for headings */
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: #3f3535; /* White background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+button {
+  background-color: #007bff; /* Primary color for buttons */
+  color: #fff; /* Text color for buttons */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+span {
+  font-size: 36px;
+  color: #007bff; /* Primary color for quote marks */
+}
+
+i {
+  font-style: italic;
+  color: #c6bebe; /* Color for author */
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  h1 {
+    font-size: 24px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  i {
+    font-size: 14px;
+  }
+}
